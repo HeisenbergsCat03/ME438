@@ -1,7 +1,7 @@
 # Silicon-Metal Alloy Potentials Project
 
 ## Overview
-This project investigates the use of machine learning (ML) techniques to model and predict interatomic potentials in silicon-metal alloy systems. It combines Density Functional Theory (DFT) calculations with ML to achieve accurate and computationally efficient potential predictions. Three ML models—Support Vector Regression (SVR), Gaussian Mixture Models (GMM), and Fully Connected Neural Networks (FCNN)—are trained on DFT-generated datasets.
+This project investigates the use of machine learning (ML) techniques to model and predict interatomic potentials in silicon-metal alloy systems. It combines Density Functional Theory (DFT) calculations with ML to achieve accurate and computationally efficient potential predictions. Three ML models—Support Vector Regression (SVR), Gaussian Mixture Models (GMM), and Fully Connected Neural Networks (FCNN)—are trained on the generated datasets.
 
 ## Workflow
 
@@ -33,7 +33,6 @@ Train three ML models on the generated datasets:
 
 ### Each Script:
 - Outputs **model performance metrics** (e.g., RMSE).
-- Saves **trained models** for further use.
 
 ---
 
@@ -69,25 +68,6 @@ The models were evaluated using **Root Mean Square Error (RMSE)**:
 
 ---
 
-## Future Work
-
-### Model Improvements:
-- **SVR**: Further tune hyperparameters like the kernel type and regularization parameters.
-- **GMM**: Optimize the number of components and covariance types.
-- **NN**: Explore advanced regularization (e.g., dropout, L2 regularization) and modify network architecture.
-
-### Ensemble Learning:
-- Use **boosting, bagging, or stacking** to combine strengths of multiple models.
-- Hybrid approaches combining **SVR for precision** and **NN for learning complex patterns** could improve accuracy.
-
----
-
-## Repository
-For more details and code:
-- [GitHub Repository](https://github.com/HeisenbergsCat03/ME438)
-
----
-
 ## Acknowledgment
-This project was developed as part of the ME438 course at IIT Bombay, under the guidance of **Prof. Amit Singh**. His insightful teaching and demonstrations enabled the successful completion of this work.
+This project was developed as part of the ME438 course at IIT Bombay, under the guidance of **Prof. Amit Singh**. 
 
