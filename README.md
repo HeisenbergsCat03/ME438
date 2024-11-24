@@ -20,8 +20,7 @@ Run `data_collection.ipynb` to:
 ### Key Datasets Generated:
 - **Material Properties**: Includes energy per atom, formation energy per atom, band gap, etc.
 - **Categorical Data**: Material classifications and labels.
-- **Featurized Data**: Includes density features, XRD powder patterns, orbital field matrices.
-- **DFT Results**: Potential energy surface data for Si-based and Na-based alloys.
+- **Featurized Data**: Includes density features, XRD powder patterns, orbital field matrices, DFT-based generated data.
 
 ---
 
